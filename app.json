@@ -1,10 +1,16 @@
 {
     "name": "minio",
     "description": "Deploy minio on Heroku.",
-    "keywords": ["minio"],
+    "keywords": [
+        "minio"
+    ],
     "env": {
         "username": {
             "description": "username",
+            "value": "admin"
+        },
+        "password": {
+            "description": "password",
             "value": "admin"
         }
     },
