@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export MINIO_ACCESS_KEY=$username
-export MINIO_SECRET_KEY=$password
+export MINIO_ACCESS_KEY=zzzzzzzz
+export MINIO_SECRET_KEY=zzzzzzzz
 
-minio server /data --address ":80" 
+minio server /data --address "0.0.0.0:80" 
