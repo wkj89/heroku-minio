@@ -6,4 +6,4 @@ RUN chmod +x minio
 RUN mv minio /usr/local/bin
 ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
-ENTRYPOINT ["./configure.sh"]
+CMD ["configure.sh"]
