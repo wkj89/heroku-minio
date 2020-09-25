@@ -1,4 +1,6 @@
-FROM registry.cn-shanghai.aliyuncs.com/publish-kj/debug:v0.1
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install wget
 RUN wget https://dl.min.io/server/minio/release/linux-amd64/minio 
 RUN chmod +x minio
 RUN mv minio /usr/local/bin
