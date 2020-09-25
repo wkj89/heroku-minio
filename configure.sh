@@ -1,5 +1,6 @@
 #!/bin/sh
-
+echo $username
+echo $password
 export MINIO_ACCESS_KEY=zzzzzzzz
 export MINIO_SECRET_KEY=zzzzzzzz
 
